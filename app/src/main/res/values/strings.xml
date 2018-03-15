@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Pilulier Automatique</string>
+    <string name="Page0Titre">Boujour,\n
+    Pour accéder a  votre Posologie,\n
+    veuillez vous indentifiez.
+    </string>
+
+    <string name="title_activity_posologie">Posologie</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="Matin1">1</string>
+    <string name="Matin2">0</string>
+    <string name="Matin3">1</string>
+    <string name="Matin4">1</string>
+    <string name="Matin5">1</string>
+
+    <string name="Midi1">1</string>
+    <string name="Midi2">1</string>
+    <string name="Midi3">0</string>
+    <string name="Midi4">1</string>
+    <string name="Midi5">1</string>
+
+    <string name="Soir1">1</string>
+    <string name="Soir2">1</string>
+    <string name="Soir3">1</string>
+    <string name="Soir4">1</string>
+    <string name="Soir5">1</string>
+
+    <string name="Nuit1">1</string>
+    <string name="Nuit2">1</string>
+    <string name="Nuit3">1</string>
+    <string name="Nuit4">0</string>
+    <string name="Nuit5">1</string>
+
+    <string name="ACO1">1</string>
+    <string name="ACO2">1</string>
+    <string name="ACO3">1</string>
+    <string name="ACO4">1</string>
+    <string name="ACO5">1</string>
+</resources>
