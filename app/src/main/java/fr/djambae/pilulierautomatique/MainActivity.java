@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
-//    public static final String EXTRA_MESSAGE = "fr.Djambae.pilulierautomatique.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,26 +19,20 @@ public class MainActivity extends AppCompatActivity {
         EditText Texte = (EditText) findViewById(R.id.editText);
         String Message  = Texte.getText().toString();
 
-        if(!Message.equals("Votre Nom") || !Message.equals("")){
+        if(Message!="Votre Nom" && Message.equals!=""){
             Intent intent = new Intent(this, Posologie.class);
             intent.putExtra("Nom", Message);
             startActivity(intent);
         }
     }
 
-    public void Efface(View View){
-        EditText Texte = (EditText) findViewById(R.id.editText);
-        Texte.setText("");
-    }
-    @Override
-    public boolean onKeyUp(int keyCode, KeyEvent event) {
-        switch (keyCode) {
-            case KeyEvent.KEYCODE_ENTER:
-                EditText Texte = (EditText) findViewById(R.id.editText);
-                sendMessage(Texte);
-                return true;
-            default:
-                return super.onKeyUp(keyCode, event);
+    public void Efface(View View) {
+        if (Message = "Votre Nom" && Message.equals = "") {
+            EditText Texte = (EditText) findViewById(R.id.editText);
+            Texte.setText("");
+        } else {
+            EditText Texte = (EditText) findViewById(R.id.editText);
+            sendMessage(Texte);
         }
     }
 
