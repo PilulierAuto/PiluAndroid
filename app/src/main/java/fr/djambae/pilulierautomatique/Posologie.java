@@ -3,11 +3,13 @@ package fr.djambae.pilulierautomatique;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
 public class Posologie extends AppCompatActivity {
     String Nom;
+    public static final String TAG = "App";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +25,7 @@ public class Posologie extends AppCompatActivity {
     public void Lancement (View View){
         Intent Int = new Intent(this, Bluetooth.class);
         Int.putExtra("Nom",Nom);
+        Log.d(TAG,"Changment activité");
         startActivity(Int);
     }
 }
