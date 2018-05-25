@@ -18,7 +18,7 @@ public class Posologie extends AppCompatActivity {
         TextView TxtV = findViewById(R.id.textView2);
         String Txt = Intent.getStringExtra("Nom");
         Nom=Txt;
-        Txt = "Bienvenue, "+Txt+".\n Actuellement votre posologie est :";
+        Txt = "Bienvenue, "+Txt+".";
         TxtV.setText(Txt);
     }
 
